@@ -1,0 +1,11 @@
+.swal2-confirm.custom-confirm-button-green {
+  background-color: green !important;
+  border: none !important; /* ضخامت و رنگ خط مرزی */
+  outline: none !important; /* حذف اوت لاین */
+}
+
+.swal2-confirm.custom-confirm-button-red {
+  background-color: red !important;
+  border: none !important; /* ضخامت و رنگ خط مرزی */
+  outline: none !important; /* حذف اوت لاین */
+}

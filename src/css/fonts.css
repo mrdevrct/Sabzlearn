@@ -1,0 +1,48 @@
+
+/* dana font */
+@font-face {
+    font-family: dana-light;
+    src: url(../../public/fonts/Dana/dana-light.ttf);
+}
+@font-face {
+    font-family: dana-medium;
+    src: url(../../public/fonts/Dana/dana-medium.ttf);
+}
+@font-face {
+    font-family: dana-demibold;
+    src: url(../../public/fonts/Dana/dana-demibold.ttf);
+}
+@font-face {
+    font-family: dana-extrabold;
+    src: url(../../public/fonts/Dana/dana-extrabold.ttf);
+}
+
+/* font iransans */
+@font-face {
+    font-family: IRANSans;
+    src: url(../../public/fonts/IRANSans/IRANSans.ttf);
+}
+@font-face {
+    font-family: IRANSans_Light;
+    src: url(../../public/fonts/IRANSans/IRANSans_Light.ttf);
+}
+@font-face {
+    font-family: IRANSans_Medium;
+    src: url(../../public/fonts/IRANSans/IRANSans_Medium.ttf);
+}
+@font-face {
+    font-family: IRANSans_UltraLight;
+    src: url(../../public/fonts/IRANSans/IRANSans_UltraLight.ttf);
+}
+@font-face {
+    font-family: IRANSans_Black;
+    src: url(../../public/fonts/IRANSans/IRANSans_Black.ttf);
+}
+@font-face {
+    font-family: IRANSans_Bold;
+    src: url(../../public/fonts/IRANSans/IRANSans_Bold.ttf);
+}
+@font-face {
+    font-family: IRANSans_Number;
+    src: url(../../public/fonts/IRANSans/IRANSansNumber.ttf);
+}

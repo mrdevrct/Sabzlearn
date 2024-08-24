@@ -1,0 +1,110 @@
+.mobile-menu {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.125rem;
+}
+
+.mobile-menu__submenu {
+    border-radius: 0.75rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.mobile-menu__link--open+.mobile-menu__submenu {
+    display: block;
+}
+.mobile-menu__submenu {
+    margin-top: 0.875rem;
+    display: none;
+}
+
+menu, ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    box-sizing: border-box;
+}
+
+.mobile-menu__link, .mobile-menu__link span {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.mobile-menu__link {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+*, ::backdrop, :after, :before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: #3b82f680;
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+
+.mobile-menu__link--open {
+    --tw-text-opacity: 1;
+    color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+.mobile-menu__link, .mobile-menu__link svg {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.mobile-menu__submenu>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.875rem*(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.875rem* var(--tw-space-y-reverse));
+}

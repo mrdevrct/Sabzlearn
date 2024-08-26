@@ -2,6 +2,9 @@
 
 This project is a programming learning website built with React. The website includes a user dashboard where users can manage their profiles, view courses, and track their progress. The backend of this project is implemented using JSON Server, with a JSON database to store data.
 
+![Project Screenshot](https://github.com/mrdevrct/Sabzlearn/blob/6ba6a6c5d21af7b55bdd7511d2ac9eac8fe0041a/public/img/Screenshot%202024-08-26%20033818.png)
+
+
 ### Libraries and Tools Used
 
 The following libraries and tools are used in this project:
